@@ -24,7 +24,7 @@ jobs:
       - name: Fetch rate and notify
         env:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
-          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+          LINE_USER_ID: ${{ vars.LINE_USER_ID }}
         run: python scripts/fetch_rate.py
 
       - name: Commit updated data

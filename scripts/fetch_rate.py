@@ -92,20 +92,33 @@ def saveJson(path, data):
 
 def sendLinePush(message):
 	token = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN")
-	userId = os.environ.get("LINE_USER_ID")
-	if not token or not userId:
+	rawUserIds = os.environ.get("LINE_USER_ID")
+	if not token or not rawUserIds:
 		print("::warning::尚未設定 LINE_CHANNEL_ACCESS_TOKEN / LINE_USER_ID，略過推播")
 		return False
+
+	userIds = [uid.strip() for uid in rawUserIds.split(",") if uid.strip()]
+	if not userIds:
+		print("::warning::LINE_USER_ID 沒有有效的 userId，略過推播")
+		return False
+
+	if len(userIds) == 1:
+		url = "https://api.line.me/v2/bot/message/push"
+		payload = {"to": userIds[0], "messages": [{"type": "text", "text": message}]}
+	else:
+		url = "https://api.line.me/v2/bot/message/multicast"
+		payload = {"to": userIds, "messages": [{"type": "text", "text": message}]}
+
 	resp = requests.post(
-		"https://api.line.me/v2/bot/message/push",
+		url,
 		headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
-		json={"to": userId, "messages": [{"type": "text", "text": message}]},
+		json=payload,
 		timeout=10,
 	)
 	if resp.status_code != 200:
 		print(f"::error::LINE 推播失敗 {resp.status_code} {resp.text}")
 		return False
-	print("LINE 推播成功")
+	print(f"LINE 推播成功（{len(userIds)} 人）")
 	return True
 
 

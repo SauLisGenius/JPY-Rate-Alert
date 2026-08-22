@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>日幣匯率查詢</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="banner">
+		<h1>日幣匯率比較 · 匯率查詢</h1>
+	</header>
+
+	<main>
+		<section class="targetBox">
+			<h2>目標值設定</h2>
+			<div class="targetRow">
+				<label for="targetInput">當「最低現鈔賣出價」跌到</label>
+				<input type="number" id="targetInput" step="0.0001" placeholder="例如 0.195">
+				<button id="saveTargetBtn">儲存目標值</button>
+				<button id="clearTokenBtn" class="secondary">清除已存Token</button>
+			</div>
+			<p class="hint" id="targetStatus">尚未載入設定</p>
+		</section>
+
+		<section class="summaryBox">
+			<h2>推薦銀行</h2>
+			<table class="summaryTable">
+				<tbody>
+					<tr>
+						<td>台幣換日幣（最便宜）</td>
+						<td id="cheapestBank">--</td>
+						<td class="red" id="cheapestRate">--</td>
+					</tr>
+					<tr>
+						<td>日幣換台幣（最划算）</td>
+						<td id="bestSellBank">--</td>
+						<td class="red" id="bestSellRate">--</td>
+					</tr>
+				</tbody>
+			</table>
+			<p class="hint">單位：新台幣 / 1 日幣，最後更新時間：<span id="fetchedAt">--</span></p>
+		</section>
+
+		<section class="tableBox">
+			<h2>日幣對新台幣各銀行牌告匯率</h2>
+			<div class="tableScroll">
+				<table class="rateTable">
+					<thead>
+						<tr>
+							<th>銀行名稱</th>
+							<th>現鈔買入</th>
+							<th>現鈔賣出</th>
+							<th>即期買入</th>
+							<th>即期賣出</th>
+							<th>更新時間</th>
+							<th>現鈔手續費</th>
+						</tr>
+					</thead>
+					<tbody id="rateTableBody">
+						<tr><td colspan="7">載入中...</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<footer>
+			<p>資料來源：<a href="https://www.findrate.tw/JPY/" target="_blank" rel="noopener">findrate.tw</a>，每 30 分鐘自動抓取一次</p>
+		</footer>
+	</main>
+
+	<script src="app.js"></script>
+</body>
+</html>

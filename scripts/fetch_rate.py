@@ -95,7 +95,7 @@ def sendLinePush(message):
 	userId = os.environ.get("LINE_USER_ID")
 	if not token or not userId:
 		print("::warning::尚未設定 LINE_CHANNEL_ACCESS_TOKEN / LINE_USER_ID，略過推播")
-		return
+		return False
 	resp = requests.post(
 		"https://api.line.me/v2/bot/message/push",
 		headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
@@ -104,8 +104,9 @@ def sendLinePush(message):
 	)
 	if resp.status_code != 200:
 		print(f"::error::LINE 推播失敗 {resp.status_code} {resp.text}")
-	else:
-		print("LINE 推播成功")
+		return False
+	print("LINE 推播成功")
+	return True
 
 
 def main():
@@ -136,10 +137,10 @@ def main():
 				f"已達到目標 {target}\n"
 				f"時間：{now[:16].replace('T', ' ')}"
 			)
-			sendLinePush(message)
-			config["notified"] = True
-			config["notifiedAt"] = now
-			saveJson(CONFIG_FILE, config)
+			if sendLinePush(message):
+				config["notified"] = True
+				config["notifiedAt"] = now
+				saveJson(CONFIG_FILE, config)
 		elif current > target and alreadyNotified:
 			# 匯率回升超過目標，解除警戒，之後再次跌破可再次通知
 			config["notified"] = False

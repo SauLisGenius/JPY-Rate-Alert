@@ -1,5 +1,5 @@
-const GITHUB_OWNER = "your-github-username";
-const GITHUB_REPO = "your-repo-name";
+const GITHUB_OWNER = "https://saulisgenius.github.io/JPY-Rate-Alert";
+const GITHUB_REPO = "JPY-Rate-Alert";
 const GITHUB_BRANCH = "main";
 
 const RATE_DATA_URL = "./data/rate.json";

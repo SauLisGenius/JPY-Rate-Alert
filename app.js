@@ -94,8 +94,9 @@ async function saveTarget() {
 
 	try {
 		const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${CONFIG_API_PATH}`;
-		const getRes = await fetch(`${apiUrl}?ref=${GITHUB_BRANCH}`, {
+		const getRes = await fetch(`${apiUrl}?ref=${GITHUB_BRANCH}&t=${Date.now()}`, {
 			headers: { Authorization: `Bearer ${token}` },
+			cache: "no-store",
 		});
 		if (!getRes.ok) {
 			throw new Error(`讀取設定檔失敗：${getRes.status}`);

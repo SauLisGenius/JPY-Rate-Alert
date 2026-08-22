@@ -1,4 +1,4 @@
-const GITHUB_OWNER = "https://saulisgenius.github.io/JPY-Rate-Alert";
+const GITHUB_OWNER = "saulisgenius";
 const GITHUB_REPO = "JPY-Rate-Alert";
 const GITHUB_BRANCH = "main";
 

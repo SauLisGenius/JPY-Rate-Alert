@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-25T07:43:06.035826+08:00",
+  "fetchedAt": "2026-08-25T08:40:48.495205+08:00",
   "source": "https://www.findrate.tw/JPY/",
   "banks": [
     {
@@ -21,31 +21,22 @@
       "feeNote": "免手續費"
     },
     {
-      "name": "京城銀行",
-      "cashBuy": 0.196,
-      "cashSell": 0.2051,
-      "spotBuy": 0.1983,
-      "spotSell": 0.2023,
-      "updateTime": "07:20",
-      "feeNote": "總額0.6%"
-    },
-    {
-      "name": "元大銀行",
-      "cashBuy": 0.1944,
-      "cashSell": 0.204,
-      "spotBuy": 0.1986,
-      "spotSell": 0.2018,
-      "updateTime": "07:24",
-      "feeNote": "每筆NT$100"
-    },
-    {
       "name": "兆豐銀行",
       "cashBuy": 0.1912,
       "cashSell": 0.2039,
       "spotBuy": 0.1984,
       "spotSell": 0.2025,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "免手續費"
+    },
+    {
+      "name": "彰化銀行",
+      "cashBuy": 0.1957,
+      "cashSell": 0.2037,
+      "spotBuy": 0.1982,
+      "spotSell": 0.2022,
+      "updateTime": "08:24",
+      "feeNote": "結購外幣現鈔免收"
     },
     {
       "name": "第一銀行",
@@ -53,7 +44,7 @@
       "cashSell": 0.2039,
       "spotBuy": 0.1982,
       "spotSell": 0.2022,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "每筆NT$100,非本行每筆$200"
     },
     {
@@ -62,17 +53,62 @@
       "cashSell": null,
       "spotBuy": 0.1989,
       "spotSell": 0.2029,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "免手續費"
+    },
+    {
+      "name": "匯豐銀行",
+      "cashBuy": 0.1946,
+      "cashSell": 0.20595,
+      "spotBuy": 0.1986,
+      "spotSell": 0.20195,
+      "updateTime": "08:24",
+      "feeNote": "台幣總額之0.5%"
+    },
+    {
+      "name": "元大銀行",
+      "cashBuy": 0.1944,
+      "cashSell": 0.204,
+      "spotBuy": 0.1986,
+      "spotSell": 0.2018,
+      "updateTime": "08:24",
+      "feeNote": "每筆NT$100"
+    },
+    {
+      "name": "三信商銀",
+      "cashBuy": 0.1911,
+      "cashSell": 0.2054,
+      "spotBuy": 0.1981,
+      "spotSell": 0.2024,
+      "updateTime": "08:24",
+      "feeNote": "每筆NT$100"
+    },
+    {
+      "name": "永豐銀行",
+      "cashBuy": 0.1956,
+      "cashSell": 0.2038,
+      "spotBuy": 0.1986,
+      "spotSell": 0.2023,
+      "updateTime": "08:24",
+      "feeNote": "每筆NT$100"
     },
     {
       "name": "聯邦銀行",
       "cashBuy": 0.1963,
       "cashSell": 0.2043,
-      "spotBuy": 0.1978,
-      "spotSell": 0.2028,
-      "updateTime": "07:24",
+      "spotBuy": 0.1983,
+      "spotSell": 0.2023,
+      "updateTime": "08:24",
       "feeNote": "台幣總額0.7%,最低NT$100"
+    },
+    {
+      "name": "台新銀行",
+      "cashBuy": 0.1964,
+      "cashSell": 0.2044,
+      "spotBuy": 0.1984,
+      "spotSell": 0.2019,
+      "updateTime": "08:24",
+      "feeNote": "有賬戶免手續費"
     },
     {
       "name": "陽信銀行",
@@ -80,7 +116,7 @@
       "cashSell": 0.2037,
       "spotBuy": 0.1982,
       "spotSell": 0.2022,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "每筆NT$100"
     },
     {
@@ -89,71 +125,8 @@
       "cashSell": 0.204,
       "spotBuy": 0.1983,
       "spotSell": 0.2025,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "每筆NT$500"
-    },
-    {
-      "name": "永豐銀行",
-      "cashBuy": 0.1956,
-      "cashSell": 0.2038,
-      "spotBuy": 0.1986,
-      "spotSell": 0.2023,
-      "updateTime": "07:24",
-      "feeNote": "每筆NT$100"
-    },
-    {
-      "name": "彰化銀行",
-      "cashBuy": 0.1957,
-      "cashSell": 0.2037,
-      "spotBuy": 0.1982,
-      "spotSell": 0.2022,
-      "updateTime": "07:24",
-      "feeNote": "結購外幣現鈔免收"
-    },
-    {
-      "name": "三信商銀",
-      "cashBuy": 0.1911,
-      "cashSell": 0.2054,
-      "spotBuy": 0.1981,
-      "spotSell": 0.2024,
-      "updateTime": "07:24",
-      "feeNote": "每筆NT$100"
-    },
-    {
-      "name": "凱基銀行",
-      "cashBuy": 0.1968,
-      "cashSell": 0.2038,
-      "spotBuy": 0.1983,
-      "spotSell": 0.2023,
-      "updateTime": "07:24",
-      "feeNote": "台幣總額之1%"
-    },
-    {
-      "name": "郵局",
-      "cashBuy": 0.1907,
-      "cashSell": 0.2044,
-      "spotBuy": null,
-      "spotSell": null,
-      "updateTime": "07:24",
-      "feeNote": "免手續費"
-    },
-    {
-      "name": "國泰世華",
-      "cashBuy": 0.1938,
-      "cashSell": 0.2048,
-      "spotBuy": 0.1978,
-      "spotSell": 0.2028,
-      "updateTime": "07:24",
-      "feeNote": "每筆NT$200"
-    },
-    {
-      "name": "匯豐銀行",
-      "cashBuy": 0.1946,
-      "cashSell": 0.20595,
-      "spotBuy": 0.1986,
-      "spotSell": 0.20195,
-      "updateTime": "07:24",
-      "feeNote": "台幣總額之0.5%"
     },
     {
       "name": "土地銀行",
@@ -161,7 +134,7 @@
       "cashSell": 0.2045,
       "spotBuy": 0.1977,
       "spotSell": 0.2028,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "免手續費"
     },
     {
@@ -170,7 +143,7 @@
       "cashSell": 0.2039,
       "spotBuy": 0.1984,
       "spotSell": 0.2024,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "每筆NT$100"
     },
     {
@@ -179,26 +152,26 @@
       "cashSell": null,
       "spotBuy": 0.1983,
       "spotSell": 0.2024,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "每筆NT$100"
     },
     {
-      "name": "台新銀行",
-      "cashBuy": 0.1964,
-      "cashSell": 0.2044,
-      "spotBuy": 0.1984,
-      "spotSell": 0.2019,
-      "updateTime": "07:24",
-      "feeNote": "有賬戶免手續費"
+      "name": "遠東商銀",
+      "cashBuy": 0.1961,
+      "cashSell": 0.2041,
+      "spotBuy": 0.1993,
+      "spotSell": 0.2008,
+      "updateTime": "08:24",
+      "feeNote": "總額1%,最低100"
     },
     {
-      "name": "瑞興銀行",
-      "cashBuy": 0.1958,
+      "name": "國泰世華",
+      "cashBuy": 0.1938,
       "cashSell": 0.2048,
       "spotBuy": 0.1978,
       "spotSell": 0.2028,
-      "updateTime": "07:24",
-      "feeNote": "每筆NT$100"
+      "updateTime": "08:24",
+      "feeNote": "每筆NT$200"
     },
     {
       "name": "星展銀行",
@@ -206,8 +179,17 @@
       "cashSell": 0.2039,
       "spotBuy": 0.1981,
       "spotSell": 0.2025,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "總額1%,最低NT$100"
+    },
+    {
+      "name": "凱基銀行",
+      "cashBuy": 0.1968,
+      "cashSell": 0.2038,
+      "spotBuy": 0.1983,
+      "spotSell": 0.2023,
+      "updateTime": "08:24",
+      "feeNote": "台幣總額之1%"
     },
     {
       "name": "台中銀行",
@@ -215,17 +197,35 @@
       "cashSell": 0.2042,
       "spotBuy": 0.1982,
       "spotSell": 0.2022,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
+      "feeNote": "每筆NT$100"
+    },
+    {
+      "name": "瑞興銀行",
+      "cashBuy": 0.1958,
+      "cashSell": 0.2048,
+      "spotBuy": 0.1978,
+      "spotSell": 0.2028,
+      "updateTime": "08:24",
       "feeNote": "每筆NT$100"
     },
     {
       "name": "富邦銀行",
-      "cashBuy": 0.1952,
-      "cashSell": 0.2056,
-      "spotBuy": 0.1979,
-      "spotSell": 0.2029,
-      "updateTime": "07:24",
+      "cashBuy": 0.1951,
+      "cashSell": 0.2055,
+      "spotBuy": 0.1978,
+      "spotSell": 0.2028,
+      "updateTime": "08:24",
       "feeNote": "總額0.135%,最低NT$100（J卡8折優惠）"
+    },
+    {
+      "name": "臺灣企銀",
+      "cashBuy": 0.1962,
+      "cashSell": 0.2042,
+      "spotBuy": 0.1982,
+      "spotSell": 0.2022,
+      "updateTime": "08:24",
+      "feeNote": "總額0.7%,最低NT$100"
     },
     {
       "name": "板信銀行",
@@ -233,8 +233,17 @@
       "cashSell": 0.2041,
       "spotBuy": 0.1982,
       "spotSell": 0.2022,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "台幣總額0.5%,最低NT$100"
+    },
+    {
+      "name": "郵局",
+      "cashBuy": 0.1907,
+      "cashSell": 0.2044,
+      "spotBuy": null,
+      "spotSell": null,
+      "updateTime": "08:24",
+      "feeNote": "免手續費"
     },
     {
       "name": "新光銀行",
@@ -242,7 +251,7 @@
       "cashSell": 0.2038,
       "spotBuy": 0.1982,
       "spotSell": 0.2022,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "每筆NT$100"
     },
     {
@@ -251,26 +260,8 @@
       "cashSell": null,
       "spotBuy": 0.1991,
       "spotSell": 0.2012,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "每筆NT$100"
-    },
-    {
-      "name": "臺灣企銀",
-      "cashBuy": 0.1962,
-      "cashSell": 0.2042,
-      "spotBuy": 0.1982,
-      "spotSell": 0.2022,
-      "updateTime": "07:24",
-      "feeNote": "總額0.7%,最低NT$100"
-    },
-    {
-      "name": "玉山銀行",
-      "cashBuy": 0.1973,
-      "cashSell": 0.2043,
-      "spotBuy": 0.1983,
-      "spotSell": 0.2023,
-      "updateTime": "07:24",
-      "feeNote": "每筆NT$100 ATM免收"
     },
     {
       "name": "合作金庫",
@@ -278,7 +269,7 @@
       "cashSell": 0.2049,
       "spotBuy": 0.1974,
       "spotSell": 0.2034,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "每筆NT$100,有開戶免收"
     },
     {
@@ -287,8 +278,17 @@
       "cashSell": 0.2037,
       "spotBuy": 0.1982,
       "spotSell": 0.2022,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "非本行每筆NT100"
+    },
+    {
+      "name": "玉山銀行",
+      "cashBuy": 0.1973,
+      "cashSell": 0.2043,
+      "spotBuy": 0.1983,
+      "spotSell": 0.2023,
+      "updateTime": "08:24",
+      "feeNote": "每筆NT$100 ATM免收"
     },
     {
       "name": "王道銀行",
@@ -296,17 +296,8 @@
       "cashSell": 0.2043,
       "spotBuy": 0.1983,
       "spotSell": 0.2023,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "最低NT$100"
-    },
-    {
-      "name": "遠東商銀",
-      "cashBuy": 0.1961,
-      "cashSell": 0.2041,
-      "spotBuy": 0.1993,
-      "spotSell": 0.2008,
-      "updateTime": "07:24",
-      "feeNote": "總額1%,最低100"
     },
     {
       "name": "華泰銀行",
@@ -314,8 +305,17 @@
       "cashSell": 0.2034,
       "spotBuy": 0.1984,
       "spotSell": 0.2024,
-      "updateTime": "07:24",
+      "updateTime": "08:24",
       "feeNote": "每筆NT$100"
+    },
+    {
+      "name": "京城銀行",
+      "cashBuy": 0.196,
+      "cashSell": 0.2051,
+      "spotBuy": 0.1983,
+      "spotSell": 0.2023,
+      "updateTime": "08:24",
+      "feeNote": "總額0.6%"
     }
   ],
   "summary": {
